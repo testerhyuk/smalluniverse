@@ -5,7 +5,7 @@ import Link from 'next/link'
 import { useRouter } from 'next/router';
 import { useAuthDispatch, useAuthState } from '../context/auth';
 
-const login = () => {
+const Login = () => {
     const router = useRouter();
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -70,4 +70,4 @@ const login = () => {
   )
 }
 
-export default login
+export default Login

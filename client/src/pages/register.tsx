@@ -5,7 +5,7 @@ import React, { FormEvent, useState } from 'react'
 import InputGroup from '../components/InputGroup'
 import { useAuthState } from '../context/auth';
 
-export default function register() {
+export default function Register() {
     const [email, setEmail] = useState("");
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
